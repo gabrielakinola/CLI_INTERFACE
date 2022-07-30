@@ -52,6 +52,8 @@ const listCustomers = () => {
   });
 };
 
+//Export functions as objects and either store in a variable whne importing them or import as objects
+
 module.exports = {
   addCustomer,
   findCustomer,

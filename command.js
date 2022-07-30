@@ -81,3 +81,5 @@ program
   .action(() => listCustomers());
 
 program.parse(process.argv);
+
+//Commander is preffered to yargs for clis
